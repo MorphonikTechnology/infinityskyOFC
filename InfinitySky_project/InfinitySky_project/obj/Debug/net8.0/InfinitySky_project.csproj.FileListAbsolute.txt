@@ -149,3 +149,4 @@ C:\Users\laisv\Desktop\infinityskyOFC\InfinitySky_project\InfinitySky_project\ob
 C:\Users\laisv\Desktop\infinityskyOFC\InfinitySky_project\InfinitySky_project\obj\Debug\net8.0\InfinitySky_project.pdb
 C:\Users\laisv\Desktop\infinityskyOFC\InfinitySky_project\InfinitySky_project\obj\Debug\net8.0\InfinitySky_project.genruntimeconfig.cache
 C:\Users\laisv\Desktop\infinityskyOFC\InfinitySky_project\InfinitySky_project\obj\Debug\net8.0\ref\InfinitySky_project.dll
+C:\Users\Laura\Desktop\InfinitySky_project\InfinitySky_project\InfinitySky_project\obj\Debug\net8.0\InfinitySky_project.sourcelink.json

@@ -16,7 +16,7 @@ namespace InfinitySky_project.Controllers
 
         public HomeController(ILogger<HomeController> logger, IClienteRepository clienteRepositorio, LoginCliente loginCliente) //-- recurso essencial para detectar ou investigar problemas(loggs); )
         {
-            _logger = logger; 
+            _logger = logger;
             _clienteRepositorio = clienteRepositorio;
             _loginCliente = loginCliente;
         }
@@ -29,9 +29,16 @@ namespace InfinitySky_project.Controllers
 
         public IActionResult PainelCliente()
         {
-            return View();
+            return RedirectToAction(nameof(DadosCliente));
         }
 
+        public IActionResult DadosCliente()
+        {
+            // Criando um novo método 
+            // Retorna na página a lista de todos os clientes 
+            //return View(_clienteRepositorio.TodosClientes());
+            return View();
+        }
 
         // Página de Login
         public IActionResult Login()
@@ -90,7 +97,7 @@ namespace InfinitySky_project.Controllers
         }
 
 
-        /*Criando uma nova view para a pagina sobre nós*/
+        //Criando uma nova view para a pagina sobre nós/
         public IActionResult Sobre()
         {
             return View();

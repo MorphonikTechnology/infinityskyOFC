@@ -84,8 +84,41 @@ namespace InfinitySky_project.Repository
             }
 
         }
+        //Listar todos os clientes 
+
+        public IEnumerable<Cliente> TodosClientes()
+        {
+            List<Cliente> Clientlist = new List<Cliente>();
+
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("SELECT * from Cliente", conexao);
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                conexao.Close();
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    Clientlist.Add(
+                            new Cliente
+                            {
+                                Nome = (string)(dr["Nome"]),
+                                Telefone = (string)(dr["Telefone"]),
+                                Data_Nascimento = (string)(dr["Data de nascimento"]),
+                                Email = (string)(dr["Email"]),
+                                Cpf_Cliente = (string)(dr["CPF"]),
+
+                            });
+                }
+                return Clientlist;
+
+            }
+        }
     }
 
 
 }
-
