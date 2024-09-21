@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laura\\Desktop\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj": {}
+    "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laura\\Desktop\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj": {
+    "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laura\\Desktop\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj",
+        "projectUniqueName": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj",
         "projectName": "InfinitySky_project",
-        "projectPath": "C:\\Users\\Laura\\Desktop\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj",
-        "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laura\\Desktop\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project\\obj\\",
+        "projectPath": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\InfinitySky_project.csproj",
+        "packagesPath": "C:\\Users\\anapa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anapa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
