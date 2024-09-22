@@ -68,7 +68,7 @@
     width: 1548px;
     height: 550px;
    margin-left:-18%;
-   margin-top:8px;
+   margin-top:-20px; /*medida exata*/
 }
 
 .banner-text {
@@ -148,50 +148,53 @@
         color: #666;
 
     }
+   
 
 
-/* Estilização do container principal */
-.bluediv {
-    background-color: #003366; /* Cor de fundo semelhante ao da imagem */
+.quality-section {
+    background-color: #003B5C; /* Cor de fundo azul escuro */
     color: white;
-    height: 300px;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Alinha verticalmente o conteúdo ao centro */
-    align-items: flex-start; /* Alinha o conteúdo à esquerda */
-    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 1548px;
+    height: 510px;
+    margin-left: -18%;
+    margin-top:40px;
 }
 
-    .bluediv h1 {
-        font-size: 40px;
-        font-weight: bold;
-        margin-left: 210px;
-        color: white; /* Garante que o texto seja legível sobre a imagem de fundo */
-        margin-top: -20px;
-    }
+.quality-text {
+    text-align: left;
+}
 
-    .bluediv h2 {
-        font-size: 70px;
+    .quality-text h2 {
         margin: 0;
-        margin-left: 100px;
-        color: white; /* Garante que o texto seja legível sobre a imagem de fundo */
+        font-size: 39px;
+        font-weight: normal;
+        color: #ffff;
+        margin-left: 66%;
+        font-family: Gilroy-SemiBold;
     }
 
-.descri {
-    color: white; /* Garante que o texto seja legível sobre a imagem de fundo */
-    margin-right: 150px;
-    text-align: center; /* Centraliza texto dentro do elemento */
-    font-size: 23px;
-    font-family: 'arial';
-    margin-left: 700px;
-    /tentando deixar padronizado/ text-align: justify;
-    text-align-last: justify;
-    line-height: 1.7;
-    hyphens: auto; /* Permite a quebra automática de palavras */
-    margin-top: -160px;
-}
+    .quality-text h1 {
+        margin: 5px 0;
+        font-size: 80px;
+        font-weight: bold;
+        color: #ffff;
+        margin-left:40%;
+        font-family:Gilroy-SemiBold;
 
+    }
+
+.description-text {
+    max-width: 700px;
+    font-size: 27px;
+    line-height: 1.5;
+    text-align:justify;
+    font-family:Gilroy-Medium;
+    margin-right:1%;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -220,6 +223,7 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+
 
 .imagem-plano {
     width: 100%;
@@ -273,21 +277,26 @@ h2 {
     margin-top: 20px;
 }
 
+
+
+
 .paises-parceiros {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 800px;
+
 }
 
     .paises-parceiros h2 {
         color: #003366;
         margin-bottom: 30px;
+        font-family:Gilroy-SemiBold;
+        font-size:28px;
     }
 
 .bandeiras {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    /espaçamento das bandeiras/
+    gap: 15px; /*Espaçamento entre as bandeiras*/
 }
 
     .bandeiras img {
@@ -321,55 +330,3 @@ h2 {
     line-height: 1.7;
 }
 
-
-
-.copy {
-    margin-top: 50px;
-    color: #ffffff;
-    margin-left: 465px;
-    font-size: 20px;
-    margin-top: -80px;
-    font-family: 'arial';
-}
-
-.img3 {
-    width: 1519px;
-    margin-top: -50px;
-    /exatamente na medida da outra div/ height: 635px;
-}
-
-
-.sm {
-    font-size: 35px;
-    margin-top: 50px;
-    margin-left: -80px;
-    display: flex;
-    font-family: 'arial';
-}
-
-.text1 {
-    font-size: 20px;
-    margin-left: 20px;
-    display: flex;
-    /espaço entre os outro elementos/ padding-left:15%;
-    /espaço entre os outro elementos/ font-family:'arial';
-    margin-top: 10px;
-}
-
-.text2 {
-    font-size: 20px;
-    margin-left: 90px;
-    margin-top: -85px;
-    display: flex;
-    padding-left: 50%;
-    font-family:'arial';
-}
-
-.text3 {
-    font-size: 20px;
-    margin-left: 170px;
-    margin-top: -93px;
-    display: flex;
-    padding-left: 80%;
-   font-family:'arial';
-}

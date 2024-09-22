@@ -56,7 +56,7 @@
 .navbar {
     background-color: #003C5C;
     padding: 10px 20px;
-    /espaçamento/
+    height: 110px;
 }
 
 /*ajuste de logo infinity*/
@@ -75,8 +75,8 @@
 
 /*"parte branca da barra"*/
 .search-bar input {
-    width: 500px;
-    height: 40px;
+    width: 700px; /*Largura da barra de pesquisa*/
+    height: 40px; /*altura da barra de pesquisa*/
     padding: 10px 15px;
     border-radius: none;
     border: 1px solid #ccc;
@@ -118,6 +118,8 @@
     text-align: center; /* Centraliza os links */
     font-family: 'Gilroy-SemiBold';
     margin-top: -16px;
+    height: 80px;
+    
 }
 
 .secondary-navbar ul {
@@ -127,16 +129,21 @@
     display: flex;
     justify-content: center; /* Centraliza os itens */
     margin-right: 50px;
+    height:80px;
+    
+
 }
 
     .secondary-navbar ul li {
         margin: 0 15px; /* Espaçamento entre os links */
+        margin-top:15px;
+        
     }
 
         .secondary-navbar ul li a {
             color: white;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bold;
         }
 
