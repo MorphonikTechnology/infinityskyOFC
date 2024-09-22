@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\laisv\\Desktop\\infinityskyOFC\\InfinitySky_project\\",
   "Documents": [
     {
@@ -33,6 +34,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|c:\\users\\laisv\\desktop\\infinityskyofc\\infinitysky_project\\infinitysky_project\\wwwroot\\css\\estilocadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|solutionrelative:infinitysky_project\\wwwroot\\css\\estilocadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|c:\\users\\anapa\\desktop\\infinityskyofc\\infinitysky_project\\infinitysky_project\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|solutionrelative:infinitysky_project\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|c:\\users\\anapa\\desktop\\infinityskyofc\\infinitysky_project\\infinitysky_project\\views\\home\\dadoscliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F62FE2E-42BB-49A5-910A-C613A0A32A9B}|InfinitySky_project\\InfinitySky_project.csproj|solutionrelative:infinitysky_project\\views\\home\\dadoscliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 5e5315e057658d6e6efcc74e3b2f40e3f2a3c32e
     }
   ],
   "DocumentGroupContainers": [
@@ -47,6 +59,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "sobreempresa.css",
               "DocumentMoniker": "C:\\Users\\laisv\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\wwwroot\\css\\sobreempresa.css",
               "RelativeDocumentMoniker": "InfinitySky_project\\wwwroot\\css\\sobreempresa.css",
@@ -55,11 +68,22 @@
               "ViewState": "AQIAAAMBAAAAAAAAAAAAABcBAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-21T00:42:47.08Z",
+=======
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "InfinitySky_project\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "InfinitySky_project\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T00:17:26.975Z",
+>>>>>>> 5e5315e057658d6e6efcc74e3b2f40e3f2a3c32e
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "Sobre.cshtml",
               "DocumentMoniker": "C:\\Users\\laisv\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\Views\\Home\\Sobre.cshtml",
               "RelativeDocumentMoniker": "InfinitySky_project\\Views\\Home\\Sobre.cshtml",
@@ -142,6 +166,17 @@
               "ViewState": "AQIAADgAAAAAAAAAAAAAAEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-18T21:58:28.968Z"
+=======
+              "Title": "DadosCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\Views\\Home\\DadosCliente.cshtml",
+              "RelativeDocumentMoniker": "InfinitySky_project\\Views\\Home\\DadosCliente.cshtml",
+              "ToolTip": "C:\\Users\\anapa\\Desktop\\infinityskyOFC\\InfinitySky_project\\InfinitySky_project\\Views\\Home\\DadosCliente.cshtml",
+              "RelativeToolTip": "InfinitySky_project\\Views\\Home\\DadosCliente.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T14:37:50.888Z",
+              "EditorCaption": ""
+>>>>>>> 5e5315e057658d6e6efcc74e3b2f40e3f2a3c32e
             }
           ]
         },

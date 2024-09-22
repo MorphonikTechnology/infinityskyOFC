@@ -1,0 +1,52 @@
+﻿@model IEnumerable<InfinitySky_project.Models.Plano>
+
+@{
+    ViewData["Title"] = "Carrinho";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinitySky</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="~/css/Carinho.css" asp-append-version="true">
+</head>
+<body>
+    <!-- Banner com as 3 fotos -->
+    <section class="banner">
+        <img class="banner-image" src="/img/fundomelhorlugar.png" alt="banner-image" />
+        <div class="banner-text">
+            <h1>DÊ INÍCIO</h1>
+            <p>A SUA VIAGEM</p>
+        </div>
+    </section>
+
+    <!-- Descrição que aparece -->
+    <section class="descricao">
+        <p>Carrinho</p>
+    </section>
+
+    <!-- Iteração sobre os planos favoritados -->
+    @foreach (var plano in Model)
+    {
+        <div class="cardcarinho">
+            <div class="image-container">
+                <img src="~/img/@plano.ImagemPlano" alt="@plano.CursoPlano" />
+            </div>
+
+            <div class="detalhesplanocarinho">
+                <h3>@plano.Pais.Nome - @plano.PeriodoPlano</h3>
+                <p>Saindo de São Paulo</p>
+                <p>Aéreo ida e volta com bagagem inclusa</p>
+                <p>Hospedagem - @plano.HospedagemPlano</p>
+                <p>Check-in: 26/07/2024</p>
+                <p class="infopreco">a partir de <strong>R$ @plano.Valor.ToString("C")</strong></p>
+                <p class="precototal">Total para 2 pessoas: <strong>R$ @plano.Valor.ToString("C")</strong></p>
+                <button class="comprar">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    }
+</body>
+</html>
